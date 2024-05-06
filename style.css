@@ -1,0 +1,89 @@
+
+#header_princial{ 
+   
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lista_geral { 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lista_geral li a {
+    box-sizing: border-box;
+    margin: 0px 10px 0px 10px;
+    color: red;
+}
+
+.Secao_geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.Secao_geral a {
+
+    margin:10px 0 15px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    height: 454px;
+}
+
+.artigo_geral
+{
+  width: 680px;
+  margin: 10px 10px 10px 10px;
+}
+time{
+    width: 100%;
+    font-style: italic;
+
+}
+
+#secao_sport{
+    background-color: rgba(0, 128, 0, 0.616);
+}
+
+#secao_sport a{
+    background-color: rgb(12, 219, 12);
+}
+
+
+
+#secao_eco{
+    background-color: rgba(172, 169, 7, 0.788);
+}
+#secao_eco a{
+    background-color: rgb(172, 169, 7);
+}
+
+#secao_entretenimento{
+    background-color: rgba(223, 18, 11, 0.932);
+}
+#secao_entretenimento a{
+    background-color: rgb(168, 27, 20);
+}
+
+#secao_tec{
+    background-color: rgba(10, 52, 240, 0.651);
+}
+#secao_tec a{
+    background-color: rgb(80, 105, 216);
+}
+
